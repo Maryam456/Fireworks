@@ -1,4 +1,5 @@
 //Global Variables
+Ball ball = new ball(250, 250, 25); //Create memory space
 
 void setup() {
   size(600, 500);
