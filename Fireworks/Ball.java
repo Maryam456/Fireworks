@@ -3,10 +3,18 @@ class Ball {
   float y;
   float diameter;
   
-  Ball(xParameter, yParameter,diameterParameter ) { // populate variables to create an object
+  Ball(float xParameter, float yParameter, float diameterParameter ) { //called automatic casting in processing float vs.int casting
     this.x = xParameter;
     this.y = yParameter;
     this.diameter = diameterParameter
   }// End of contructor
+  
+  void setup () {
+  
+  
+  
+  
+  
+  }
   
 } //End of Class
