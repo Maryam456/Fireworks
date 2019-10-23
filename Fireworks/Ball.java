@@ -1,25 +1,23 @@
+
 class Ball {
   private float x;
-  private x;
+  private float y;
+  private float diameter;
 
-  private y;
-  private diameter;
+  public float targetX;
+  public float targetY;
 
-  private targetX;
-  private targetY;
-
-  Ball(float xParameter, float yParameter, float diameterParameter ) { //called automatic casting in processing float vs.int casting
+  Ball(float xParameter, int yParameter, float diameterParameter) { // Notice float vs. int; casting issue
     this.x = xParameter;
-    this.y = yParameter;
-    this.diameter = diameterParameter
-    
-    targetX  = xparameter;
-    targetY = yparameter;
-  }// End of contructor
+    this.y = yParameter; 
+    this.diameter = diameterParameter;
 
-  void setup () {
+    targetX = xParameter;
+    targetY = yParameter;
+  } // End of Constructor
 
-    if ( x < targetX) {
+  void step() {
+    if (x < targetX) {
       x++;
     } else {
       x--;
@@ -30,22 +28,9 @@ class Ball {
     } else {
       y--;
     }
+  } // End step()
+
+  public float getX() {
+    return x;
   }
-public float getX(){
- return(); 
-}
-public float getY() {
-  return y;
-}
-
-public float getDiameter() {
-  return diameter;
-}
-
-public float getTargetX() {
-  return targetX;
-}
- public float getTargetY() {
-   return targetY;
- }
-} //End of Class
+} // End of the Ball Class
