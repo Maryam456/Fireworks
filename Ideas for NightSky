@@ -1,0 +1,5 @@
+instead of cricles put stars
+Include an edge detection to get 100%
+add a limit to how many circles can go on board
+make sure stars don't overlap
+continue off Mercers basic algorithm 
