@@ -1,5 +1,17 @@
 instead of cricles put stars
-Include an edge detection to get 100%
+Include an edge detection to get 100% same thing
 add a limit to how many circles can go on board
 make sure stars don't overlap
 continue off Mercers basic algorithm 
+the moving ball with addtional speed and many ball algorithm  all together (edge detection and overlap)
+for everytime mouseclicked, approximately 30 stars shift to a random height and width
+try to create a loop where 30 stars can appear
+100 stars
+10 000 stars 
+until they fill up the screen 
+
+only use the main program 
+include star.java
+don't use screenSizeChecker
+build another constructor
+have your createStars
